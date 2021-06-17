@@ -1,0 +1,12 @@
+{
+    "home_page": "https://www.mountvernon.org/",
+    "logout_page": "https://checkout.mountvernon.org/account/logout",
+    "login_page": "https://checkout.mountvernon.org/account/login",
+    "donation_page": "https://checkout.mountvernon.org/donate/q/donate?promo=48958",
+    "active_user": "ekaterina.samuseva+memder1@fivejars.com",
+    "active_user_password": "Aa!11111111",
+    "expired_user": "ekaterina.samuseva+memder2expired@fivejars.com",
+    "expired_user_password": "Aa!11111111",
+    "nonmember_user": "ekaterina.samuseva+nonmember@fivejars.com",
+    "nonmember_user_password": "Aa!11111111"
+}
