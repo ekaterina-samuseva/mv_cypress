@@ -8,7 +8,7 @@ describe('Smoke testing', () => {
     cy.fixture('data').then(data => {
 
       // Log in as user with active membership
-      cy.visit(data.home_page)
+      cy.visit('/');
       cy.get(homePage.elements.buttons.loginButton).click();
       cy.get(tnewLoginPage.elements.inputs.emailField).type(data.active_user);
       cy.get(tnewLoginPage.elements.inputs.passwordField).type(data.active_user_password);
@@ -29,7 +29,7 @@ describe('Smoke testing', () => {
     cy.fixture('data').then(data => {
 
       // Log in as user with expired membership
-      cy.visit(data.login_page)
+      cy.visit(data.login_page);
       cy.get(tnewLoginPage.elements.inputs.emailField).type(data.expired_user);
       cy.get(tnewLoginPage.elements.inputs.passwordField).type(data.expired_user_password);
       cy.get(tnewLoginPage.elements.buttons.singIn).click();
@@ -48,7 +48,7 @@ describe('Smoke testing', () => {
     cy.fixture('data').then(data => {
 
       // Log in as user with expired membership
-      cy.visit(data.login_page)
+      cy.visit(data.login_page);
       cy.get(tnewLoginPage.elements.inputs.emailField).type(data.nonmember_user);
       cy.get(tnewLoginPage.elements.inputs.passwordField).type(data.nonmember_user_password);
       cy.get(tnewLoginPage.elements.buttons.singIn).click();

@@ -1,4 +1,6 @@
 {
     "viewportWidth": 1500,
-    "viewportHeight": 800
+    "viewportHeight": 800,
+    "pageLoadTimeout": 100000,
+    "baseUrl": "https://www.mountvernon.org/"
   }
